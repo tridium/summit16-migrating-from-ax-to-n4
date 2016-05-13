@@ -1,0 +1,5 @@
+<types>
+  <!--com.niagarasummit.nola-->
+  <type class="com.niagarasummit.nola.BGator" name="Gator"/>
+  <type class="com.niagarasummit.nola.BGatorTracker" name="GatorTracker"/>
+</types>

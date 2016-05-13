@@ -1,0 +1,6 @@
+/* Vendor Configuration File */
+group = 'niagarasummit'
+
+def moduleVersion = '4.0'
+def moduleVersionPatch = [:]
+version = "${moduleVersion}${moduleVersionPatch.get(project.name, '')}"

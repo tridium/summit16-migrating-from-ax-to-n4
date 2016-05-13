@@ -1,0 +1,42 @@
+WARNING [15:11:58 11-May-16 EDT][timezone] No niagara.timezone in !/lib/system.properties, set one using the Platform Administrator
+MESSAGE [15:11:58 11-May-16 EDT][sys.registry] Up-to-date [15ms]
+MESSAGE [15:11:58 11-May-16 EDT][sys.registry] Loaded [32ms]
+MESSAGE [15:11:58 11-May-16 EDT][sys] Baja runtime booted ("d:\niagara\niagara-3.8.41") on Win-CE9A-87C6-1526-58EF
+MESSAGE [15:11:58 11-May-16 EDT][sys] Loading "d:\niagara\niagara-3.8.41\stations\swamp\config.bog"...
+MESSAGE [15:11:59 11-May-16 EDT][sys] Loaded (468ms)
+MESSAGE [15:11:59 11-May-16 EDT][alarm.database] Loading...
+MESSAGE [15:11:59 11-May-16 EDT][alarm.database] Loaded [0ms, 2 alarms, 8 pages]
+MESSAGE [15:11:59 11-May-16 EDT][sys] Services Initialized (78ms)
+MESSAGE [15:11:59 11-May-16 EDT][sys.mixin] Updated [0ms]
+MESSAGE [15:11:59 11-May-16 EDT][sys.mixin] Updated [0ms]
+MESSAGE [15:12:00 11-May-16 EDT][sys] Niagara Runtime Environment: 3.8.41
+MESSAGE [15:12:00 11-May-16 EDT][sys] *** Station Started (437ms) [1881ms total] ***
+niagara>WARNING [15:12:00 11-May-16 EDT][crypto] cert chain for tridium has an out of date certificate
+WARNING [15:12:00 11-May-16 EDT][crypto] cert chain for tridium has an out of date certificate
+MESSAGE [15:12:00 11-May-16 EDT][web.server] HTTPS server started on port [443]
+MESSAGE [15:12:00 11-May-16 EDT][fox] FOXS server started on port [4911]
+MESSAGE [15:12:01 11-May-16 EDT][history.db] Starting async warmup of history config index...
+MESSAGE [15:12:01 11-May-16 EDT][history.db] Async history config index warmup completed in 15 ms.
+WARNING [15:12:02 11-May-16 EDT][fox] Closing session [0: Server 127.0.0.1:45741 doesn't match opened session [null]
+MESSAGE [15:12:04 11-May-16 EDT][fox] Opened: 1 <- 1 :: Workbench @ VA51LT5MKCM32
+MESSAGE [15:12:29 11-May-16 EDT][sys] Saving station...
+MESSAGE [15:12:29 11-May-16 EDT][sys] Saved d:\niagara\niagara-3.8.41\stations\swamp\config.bog (172ms)
+MESSAGE [15:12:29 11-May-16 EDT][backup] Backup starting...
+MESSAGE [15:12:31 11-May-16 EDT][backup] Finished backup, 105 files [1941ms]
+MESSAGE [15:12:44 11-May-16 EDT][console] Quit
+MESSAGE [15:12:44 11-May-16 EDT][sys] Saving station...
+MESSAGE [15:12:44 11-May-16 EDT][sys] Saved d:\niagara\niagara-3.8.41\stations\swamp\config.bog (156ms)
+MESSAGE [15:12:44 11-May-16 EDT][fox] Closed: 1 <- 1 :: Workbench @ VA51LT5MKCM32
+MESSAGE [15:12:44 11-May-16 EDT][sys] Station stopped
+MESSAGE [15:12:44 11-May-16 EDT][fox] Service stopped
+MESSAGE [15:12:44 11-May-16 EDT][fox] FOXS server stopped on  port [4911]
+WARNING [15:12:44 11-May-16 EDT][web.server] Server accept exception: socket closed
+MESSAGE [15:12:44 11-May-16 EDT][web.server] HTTPS server stopped on port [443]
+MESSAGE [15:12:44 11-May-16 EDT][sys] Services stopped
+MESSAGE [15:12:44 11-May-16 EDT][sys] *** Station shutdown ***
+
+
+g station...
+MESSAGE [15:12:29 11-May-16 EDT][sys] Saved d:\niagara\niagara-3.8.41\stations\swamp\config.bog (172ms)
+MESSAGE [15:12:29 11-May-16 EDT][backup] Backup starting...
+MESSAGE [15:12:31 11-May-16 EDT][backup] Finished 

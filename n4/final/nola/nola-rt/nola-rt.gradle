@@ -1,0 +1,26 @@
+/* Module Build File */
+
+description     = "New Orleans Module Migration demo"
+ext {
+}
+niagaraModule {
+  moduleName = "nola"
+  preferredSymbol = "nola"
+  runtimeProfile = "rt"
+}
+
+dependencies {
+  compile "Tridium:nre:4.3"
+  compile "Tridium:baja:4.3"
+  compile "Tridium:alarm-rt:4.3"
+  compile "Tridium:bql-rt:4.3"
+  compile "Tridium:control-rt:4.3"
+  compile "Tridium:file-rt:4.3"
+  compile "Tridium:gx-rt:4.3"
+  compile "Tridium:history-rt:4.3"
+}
+
+//moduleTestJar {
+//  from('srcTest') {
+//  }
+//}

@@ -1,0 +1,15 @@
+<!-- Module Include File -->
+
+<!-- Types -->
+<types>
+
+  <type name="Gator" class="com.niagarasummit.nola.BGator"/>
+  <type name="GatorTracker" class="com.niagarasummit.nola.BGatorTracker"/>
+  
+  <type name="GatorTrackerView" class="com.niagarasummit.nola.ui.BGatorTrackerView">
+    <agent requiredPermissions="r">
+      <on type="nola:GatorTracker"/>
+    </agent>
+  </type>
+
+</types>

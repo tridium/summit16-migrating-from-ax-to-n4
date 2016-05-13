@@ -1,0 +1,25 @@
+<!-- Module Build File -->
+
+<module
+  name = "nola"
+  bajaVersion = "0"
+  preferredSymbol = "nola"
+  description = "New Orleans Summit migration demo"
+  vendor = "niagarasummit"
+>
+
+  <!-- Dependencies -->
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="alarm" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="bajaui" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="bql" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="control" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="file" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="gx" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="history" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="workbench" vendor="Tridium" vendorVersion="3.8" />
+
+  <package name="com.niagarasummit.nola" doc="true" />
+  <package name="com.niagarasummit.nola.ui" install="ui" doc="true" />
+
+</module>

@@ -1,0 +1,8 @@
+<types>
+  <!--com.niagarasummit.nola.ui-->
+  <type class="com.niagarasummit.nola.ui.BGatorTrackerView" name="GatorTrackerView">
+    <agent requiredPermissions="r">
+      <on type="nola:GatorTracker"/>
+    </agent>
+  </type>
+</types>

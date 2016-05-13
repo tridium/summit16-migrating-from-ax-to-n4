@@ -1,0 +1,26 @@
+#
+# Lexicon for the nola module.
+#
+
+gatorTracker.couldNotAck=Could not ack alarm: {0}
+gatorTracker.couldNotQuery=Could not query {0}
+gatorTracker.queryByUuid.result=Alarm for UUID {0}: {1}
+gatorTracker.displayNames.result.elem={0}: {1}
+gatorTracker.displayNames.result=\nDisplay Names Table\n{0}
+gatorTracker.writeList.error=Error writing gator list to file: {0}
+gatorTracker.recordGators.msg=Finding record-breaking gators...
+gatorTracker.gatorStats=Gator Name: {0} Length: {1} Weight: {2}
+gatorTracker.gatorList.title=Gator List
+
+gators.col.time=Time
+gators.col.name=Name
+gators.col.length=Length
+gators.col.weight=Weight
+
+gatorView.add.label=Add
+gatorView.add.description=Track a Gator
+gatorView.add.icon=module://icons/x16/add.png
+gatorView.add.title=Add Tracked Gator
+gatorView.remove.label=Remove
+gatorView.remove.description=Remove Gator
+gatorView.remove.icon=module://icons/x16/delete.png
